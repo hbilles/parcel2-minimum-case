@@ -1,0 +1,33 @@
+{
+  "name": "parcel2-test",
+  "version": "1.0.0",
+  "description": "Testing Parcel v2",
+  "scripts": {
+    "build": "node runBundle.js",
+    "start": "parcel serve ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@parcel/core": "^2.0.0-beta.3.1",
+    "@parcel/transformer-image": "^2.0.0-beta.3.1",
+    "@parcel/transformer-raw": "^2.0.0-beta.3.1",
+    "@parcel/transformer-stylus": "^2.0.0-beta.3.1",
+    "parcel": "^2.0.0-beta.3.1",
+    "stylus": "^0.54.8"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "engines": {
+    "node": ">= 14.17.0",
+    "npm": ">= 6.14.13"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie < 11"
+  ]
+}
